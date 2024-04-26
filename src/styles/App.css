@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 50;
+  background-image: url("https://i.gifer.com/embedded/download/IrM.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.app {
+  margin: auto;
+  width: 500px;
+  padding: 0px 15px;
+  height: 50%;
+}
+
+.header {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+.header h2 {
+  margin: 3%;
+  font-size: 250%;
+}
+
+.form {
+  margin-bottom: 40px;
+  min-height: 20%;
+  
+}
+
+.form__input {
+  float: left;
+  font-size: 16px;
+  padding: 6px 8px;
+  box-sizing: border-box; /* Just to ensure the padding is included in the size of the box*/
+  width: 80%;
+  min-height: 41px
+}
+
+#f_Input{
+  border: 0;
+  border-radius: 5px;
+}
+
+.form__submit {
+  float: right;
+  padding: 8.5px;
+  background-color: darkorange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.form__submit:hover {
+  background-color: #d17300;
+}
+
+.todo__list {
+  width: 100%;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.todo {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  border-radius: 5px;
+  margin: 5px 0px;
+  background-color: #e8e8e8;
+  position: relative;
+  padding: 20px 20px;
+}
+
+
+.todo__delete {
+  padding: 4px;
+  padding-bottom: 2px;
+  display: inline-block;
+  border: none;
+  background-color: red;
+  color: white;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 20px;
+}
+
+.todo__delete:hover {
+  background-color: #b80000;
+}
+.delete-icon{
+  margin-bottom: 5px;
+}
+
+.search__container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.search__input {
+  
+  width: 96%;
+  padding: 10px;
+  margin-bottom: 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.search__item {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  width: 96%;
+}
+
+.search__item:hover {
+  background-color: #e0e0e0;
+}
+
